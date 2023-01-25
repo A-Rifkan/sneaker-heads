@@ -29,18 +29,21 @@ body {
     background-image: url("https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg");
     background-size: 100% ;
     background-repeat: no-repeat;
-    font-family: Copperplate;
-    margin: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30rem;
     margin-top: 1rem;
 }
 h1{
     color: violet;
     background-image: linear-gradient(lightblue, red);
-    text-align: center;
+    height: 75px;
     text-decoration: underline;
     text-shadow: 1px 1px 1px white;
     margin: .5rem;
     border-radius: 10px;
+    margin-bottom: 25px;
+    text-align:center;
+    padding-top: 25px;
 }
 #jordans-1{
     display: block;
@@ -55,4 +58,23 @@ h1{
     color: white;
     display: block;
     text-align: left;
+    width: 600px;
+    border-width:3px; 
+    border-style:solid; 
+    border-color:orange;
+    border-radius: 10px;
+    font-size: large;
+}
+#jordans-2-desc{
+    background-color:rgb(235, 104, 104);
+    color: white;
+    display: block;
+    text-align: left;
+    margin-left:343px;
+    width: 600px;
+    border-width:3px; 
+    border-style:solid; 
+    border-color:green;
+    border-radius: 10px;
+    font-size: large;
 }
